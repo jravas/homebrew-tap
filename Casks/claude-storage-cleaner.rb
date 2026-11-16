@@ -13,7 +13,7 @@ cask "claude-storage-cleaner" do
   desc "See where Claude Code's disk usage goes and clean it up safely"
   homepage "https://github.com/jravas/claude-storage-cleaner"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Claude Storage Cleaner.app"
 

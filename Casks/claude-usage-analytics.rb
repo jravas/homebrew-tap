@@ -13,7 +13,7 @@ cask "claude-usage-analytics" do
   desc "See where your Claude Code tokens go"
   homepage "https://github.com/jravas/claude-usage-analytics"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Claude Usage Analytics.app"
 
